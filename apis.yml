@@ -1,0 +1,32 @@
+aid: ip-2-country
+name: IP 2 Country
+description: "Map an IP to a country"
+url: https://ip2country.info
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: IP 2 Country
+    description: "Map an IP to a country"
+    humanURL: https://ip2country.info
+    baseURL: https://ip2country.info
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://ip2country.info
+common:
+  - type: Website
+    url: https://ip2country.info
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
