@@ -39,7 +39,6 @@ apis:
   - name: IP 2 Country
     description: "Map an IP to a country"
     humanURL: https://ip2country.info
-    baseURL: https://ip2country.info
     tags:
       - Geocoding
     properties:
